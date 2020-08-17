@@ -1,61 +1,50 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BoxWebApplication</title>
-    <link rel="stylesheet" href="./index.css">
-    <script src="https://kit.fontawesome.com/75b014ec11.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/89ce51601c.js" crossorigin="anonymous"></script>
+    <title>Box Landing Page</title>
+    <link href="/index.css" rel="stylesheet">
 <body>
-    <header    id="topbar">
-        <div     id="logo">
-            <img src="./box-logo.png" alt="logo"   >   
+    <header>
+        <div>
+            <img src="/box-logo.png" alt="box-logo"/>
         </div>
-        <div class="menu-options">
-            <p id="black">Plans</p>
+        <div>
+            <p>Plans</p>
             <p>Blog</p>
             <p>Job</p>
             <p>Features</p>
         </div>
-        <div id="sigin">
-            <button id="signin-btn">Sign In</button>
-        </div>
-        <div    id="menu">
+        <div>
+            <button>Sign in</button>
             <i class="fas fa-bars"></i>
         </div>
     </header>
-    <main id="main-section">
-        <div    id="left-section">
+    <main>
+        <section>
+            <aside>
+                <div><h3>NEW FEATURE</h3></div>
+                <h1>Create Your Custom Workspace.</h1>
+                <p>For each execution of a job.</p>
+                <button>Get Started</button>
+            </aside>
+            <aside>
+                <img src="/landing-section.png" alt="landing-section"/>
+            </aside>
+        </section>
+        <footer>
             <div>
-                <div id="pink-box">
-                    <button id="pink-btn">NEW FEATURE</button>
-                </div>
-                <div id="title">
-                    <h1>Create Your Custom Workspace.</h1>
-                </div>
-                <div>
-                    <p id="sub-title">For each execution of a job</p>
-                </div>
-                <div>
-                    <button id="blue-btn">Get Started</button>
-                </div>
+                <i class="fas fa-arrow-circle-left"></i>
+                <i class="fas fa-arrow-circle-right"></i>
             </div>
-            <div id="bottom-section">
-                <div id="arrows">
-                    <div id="blue"> <i class="fas fa-arrow-left left "></i></div>
-                   <div id="white"><i class="fas fa-arrow-right right"></i></div> 
-                </div>
-                <div id="creative-section">
-                    <div id="vol"><p>01.</p></div>
-                    <div id="workspace"><p>Creative</p>
-                    <p id="vol-2">Workspace Vol.2</p></div>
-                </div>
+            <div>
+                <p><b>01. </b>&nbsp;&nbsp;Creative</p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Workspace Vol. 2</p>
             </div>
-        </div>
-        <div    id="right-section">
-            <img src="./landing-section.png" alt="landing-image">
-        </div>
+        </footer>
     </main>
 </body>
 </html>
